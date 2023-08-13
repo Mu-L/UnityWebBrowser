@@ -19,7 +19,7 @@ You can change the log severity of the web engine's logging in the editor, or by
 
 ![Log Severity](~/assets/images/articles/user/logging/LogSeverity.webp)
 
-> [!NOTE]
+> [!INFO]
 > Depending on the web engine, in debug mode there can be quite a lot of log messages!
 
 What level the Core's logger does depends on the <xref:VoltstroStudios.UnityWebBrowser.Logging.IWebBrowserLogger> implementation. As the default <xref:VoltstroStudios.UnityWebBrowser.Logging.DefaultUnityWebBrowserLogger> logs straight to Unity's default logger, it will depend on how you have configured Unity's default logger.

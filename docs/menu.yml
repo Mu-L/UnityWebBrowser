@@ -1,8 +1,10 @@
 #YamlMime:Menu
 items:
 - name: Articles
-  href: Articles.md
-- name: API Reference
-  href: api/Index.md
+  href: articles/index.md
+  
+- name: API Documentation
+  href: api/index.md
+
 - name: Changelog
   href: changelog/

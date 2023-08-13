@@ -1,6 +1,6 @@
 # FAQ
 
-Here are some common questions we get. As time goes on, and we get asked more common question, we will add them here.
+Here are some common questions we get. As time goes on, and as we get asked more common question, we will add them here.
 
 ---
 
@@ -19,3 +19,9 @@ Here are some common questions we get. As time goes on, and we get asked more co
 **Q**: Does UWB support proprietary codecs?
 
 **A**: The build of CEF that UWB uses DOES NOT come with proprietary codecs by default. You can however build CEF yourself with proprietary codecs included. Also have fun doing that. (Support will not be given to those who use a custom build of CEF!)
+
+---
+
+**Q**: Does UWB support mobile?
+
+**A**: Short answer, no, and it never will. If you want the long answer, see [#131](https://github.com/Voltstro-Studios/UnityWebBrowser/discussions/131#discussioncomment-4092953).

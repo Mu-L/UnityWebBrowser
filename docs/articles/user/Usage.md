@@ -2,9 +2,11 @@
 
 Alright, lets get to actually using UWB.
 
+tl;dr: Import the [sample](#samples).
+
 ## Platform Support
 
-UWB aims to support all desktop platforms (Windows, Linux, MacOS). The core currently does support all desktop platforms, however you will have to factor in what engine you want to use. Each engine has their own different platform support. See the [engine page](Engines.md) for each engine's platform support.
+UWB aims to support all desktop platforms (Windows, Linux, MacOS). The core package currently does support all desktop platforms, however you will have to factor in what engine you want to use. Each engine has its own different platform support. See the [engine page](Engines.md) for each engine's platform support.
 
 > [!WARNING]
 > UWB does **NOT** support [IL2CPP](https://docs.unity3d.com/Manual/IL2CPP.html)!

@@ -34,7 +34,7 @@ To get the [`UnityWebBrowser`](https://github.com/Voltstro-Studios/UnityWebBrows
 git clone --recursive https://github.com/Voltstro-Studios/UnityWebBrowser.git
 ```
 
-> [!NOTE]
+> [!INFO]
 > If you did NOT clone the repo recursively, you can just init the submodules by running these commands at the root of the repo:
 > 
 > ```shell
@@ -66,7 +66,7 @@ Once in Unity, you can open the provided `UWB` scene provided in the project. By
 
 When running the project in this scene, a provided 'UWB Debug UI' will be available.
 
-> [!NOTE]
+> [!INFO]
 > By default this is "hidden", you can open the UI via the small panel at the top of the player's window.
 > ![Panel](~/assets/images/articles/dev/setup/panel.webp)
 
@@ -80,7 +80,7 @@ If you need to, extra controls can be added by modifying the `Assets/Scripts/UWB
 
 ## Dev Scripts
 
-There a many dev scripts in the `src/DevScripts` directory. The main ones that you will most likely use are:
+There are many dev scripts in the `src/DevScripts` directory. The main ones that you will most likely use are:
 
 - `download-cef-<OS>.ps1`
 - `publish-<Section>-<OS>.ps1`

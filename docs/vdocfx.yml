@@ -1,0 +1,26 @@
+templates:
+  - default
+defaultLocale: en-AU
+hostName: projects.voltstro.dev
+basePath: UnityWebBrowser
+globalMetadata:
+  _appTitle: Unity Web Browser
+  _appFooter: Copyright (c) 2021-2023 Voltstro-Studios
+  _appFooterIcon: assets/images/vs-icon.png
+  menu_path: /UnityWebBrowser/menu.json
+dotnet:
+  assemblies:
+    - '../src/VoltstroStudios.UnityWebBrowser.DocsPrj/UnityWebBrowser.DocsPrj/bin/Debug/netstandard2.1/VoltstroStudios.UnityWebBrowser.Shared.dll'
+    - '../src/VoltstroStudios.UnityWebBrowser.DocsPrj/UnityWebBrowser.DocsPrj/bin/Debug/netstandard2.1/VoltstroStudios.UnityWebBrowser.dll'
+files:
+  - '**'
+  - '../CHANGELOG.md'
+exclude:
+  - 'README.md'
+  - '.gitignore'
+  - 'obj/**/*'
+  - '_site/**/*'
+xref:
+  - https://docs.microsoft.com/en-us/dotnet/.xrefmap.json
+  - https://voltstro-studios.gitlab.io/UnityDocs/UnityXrefMaps/2021.3/xrefmap.yml
+  - https://voltstro-studios.gitlab.io/UnityDocs/UnityXrefMaps/pkgs/com.unity.ugui@1.0/xrefmap.yml
